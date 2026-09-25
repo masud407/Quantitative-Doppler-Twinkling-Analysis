@@ -3,7 +3,28 @@ close all;
 clc;
 
 tic;
+%% =========================================================
+% USER SETTINGS
+% ==========================================================
 
+%dataRoot = 'C:\path\to\Twinkle_paper_Data';
+%mustRoot = 'C:\path\to\MUST';
+
+%transducer = 'L7-4';
+%txMode     = 'PW';
+%material   = 'PMMA';
+%sample     = 'S4';
+%frequency  = '4MHz';
+
+%addpath(mustRoot);
+
+%rootFolder = fullfile( ...
+  %  dataRoot, ...
+  %  transducer, ...
+  %  txMode, ...
+  %  material, ...
+   % sample, ...
+   % frequency);
 addpath('MUST/');
 
 %% =====================================================
